@@ -1,0 +1,526 @@
+
+@import url('https://fonts.cdnfonts.com/css/jura-3');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+  }
+  #logot {
+    width: 120px;
+    height: 85px;
+    float: left;
+    margin-top: -25px;
+  }
+  .element-animation {
+
+    
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+  }
+  /*Первый блок*/
+  nav {
+    color: #fff;
+    padding: 20px;
+  }
+  ul:hover a:hover {
+    color: #0044d0;
+    box-shadow: 0 2px 0 0 currentColor;
+  }
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+  }
+  .logo {
+    font-family: Praetorian, "Times New Roman";
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 39px;
+  padding-left: 100px;
+  }
+  .nav-links li {
+    padding-top: 36px;
+    margin-right: 42px;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #link1 {
+    padding-left: 113px;
+  }
+  #FS {
+    display: block; /* Для старых браузеров */
+    height: 1600px; /* Высота шапки */
+    background: url(123a.png) no-repeat center bottom;
+    background-size: 1600px 1600px;
+    z-index: -100;
+    margin: 0%;
+  }
+  #textHeader {
+    text-align: left;
+  }
+  #h1 {
+    padding-top: 120px;
+    padding-left: 150px;
+    font-size: 60px;
+    font-family: Praetorian, "Times New Roman";
+    color: #fff;
+  }
+  #Ph1 {
+    padding-top: 10px;
+    padding-left: 150px;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+  }
+  #ButtonSlide1 {
+    padding-top: 1px;
+    padding-left: 129px;
+  }
+  #Tablets {
+    padding-left: 150px;
+    padding-top: 178px;
+  }
+  /*Первый блок*/
+  /*Второй блок*/
+  #ABOUT {
+    display: block;
+    background: url(1212.png) no-repeat center bottom;
+    background-size: 1600px 900px;
+  }
+  #about {
+    padding: 50px;
+    padding-left: 150px;
+    text-align: left;
+  }
+  #ZagolovokSlide2 {
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+  #LineSlide2 {
+    padding-right: 10px;
+    padding-bottom: 7px;
+  }
+  #Zagolovok2Slide2 {
+    font-family: Praetorian, "Times New Roman";
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+  }
+ 
+  #TextSlide2 {
+    padding-left: 150px;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin-top: -75px;
+  }
+  .PictureSlide2 {
+    float: right; /* Выравнивание по правому краю */
+    margin: -200px 150px 150px 70px; /* Отступы вокруг фотографии */
+    width: 737px;
+    height: 471px;
+    border-radius: 15px;
+   }
+   #ButtonSlide2 {
+    padding-top: 25px;
+    padding-left: 150px;
+  }
+/*Второй блок*/
+/*Третий блок*/
+  #GAME {
+    display: block;
+    background: url(1212.png) no-repeat center bottom;
+    background-size: 1600px 900px;
+  }
+  #game {
+    padding: 50px;
+    padding-left: 150px;
+    text-align: left;
+  }
+  #ZagolovokSlide3 {
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+  }
+  #LineSlide3 {
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 780px;
+  }
+  #Zagolovok2Slide3 {
+    font-family: Praetorian, "Times New Roman";
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 780px;
+  }
+  #TextSlide3 {
+    padding-left: 780px;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 50px;
+  }
+  .PictureSlide3 {
+    float: left; /* Выравнивание по правому краю */
+    margin: -210px 0px 0px -775px; /* Отступы вокруг фотографии */
+    width: 737px;
+    height: 471px;
+    border-radius: 15px;
+   }
+   #ButtonSlide3 {
+    padding-top: 25px;
+    padding-left: 780px;
+  }
+ /*Третий блок*/
+ /*Четвёртый блок*/
+ #Slogan {
+  padding: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+#slogan {
+  font-family: Praetorian, "Times New Roman";
+  font-size: 60px;
+  color: #0F66CD;
+  text-align: center;
+  margin-left: -110px;
+  display: block;
+  background: url(1212.png) no-repeat center bottom;
+  background-size: 1600px 900px;
+}
+ /*Четвёртый блок*/
+/*Пятый блок*/
+#PLANETS {
+  display: block;
+  background: url(1212.png) no-repeat center bottom;
+  background-size: 1600px 900px;
+}
+#planets {
+  padding: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+#ZagolovokSlide5 {
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+#LineSlide5 {
+  padding-right: 10px;
+  padding-bottom: 7px;
+}
+#Zagolovok2Slide5 {
+  font-family: Praetorian, "Times New Roman";
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+#TextSlide5 {
+  padding-left: 150px;
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  margin-top: -75px;
+}
+.PictureSlide5 {
+  float: right; /* Выравнивание по правому краю */
+  margin: -300px 150px 150px 70px; /* Отступы вокруг фотографии */
+  width: 588px;
+  height: 585,96px;
+  border-radius: 15px;
+ }
+ #ButtonSlide5 {
+  padding-top: 25px;
+  padding-left: 150px;
+}
+/*Пятый блок*/
+/*Шестой блок*/
+#L2E {
+  display: block;
+  background: url(1212.png) no-repeat center bottom;
+  background-size: 1600px 900px;
+}
+#l2e {
+  padding: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+#ZagolovokSlide6 {
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+#LineSlide6 {
+  padding-right: 10px;
+  padding-bottom: 7px;
+  padding-left: 780px;
+}
+#Zagolovok2Slide6 {
+  font-family: Praetorian, "Times New Roman";
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 780px;
+}
+#TextSlide6 {
+  padding-left: 780px;
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 50px;
+}
+.PictureSlide6 {
+  float: left; /* Выравнивание по правому краю */
+  margin: -210px 0px 0px -775px; /* Отступы вокруг фотографии */
+  width: 737px;
+  height: 471px;
+  border-radius: 15px;
+ }
+ #ButtonSlide6 {
+  padding-top: 25px;
+  padding-left: 780px;
+}
+/*Шестой блок*/
+/*Седьмой блок*/
+#slider {
+  width: 1600px;
+  height: 900px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 500ms opacity ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+
+.slider-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.slider-nav button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider-nav span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+/*Седьмой блок*/
+/*Восьмой блок*/ 
+.testimonials {
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+.scroller {
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow: hidden;
+}
+.item {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  background-color: black;
+  margin-bottom: 100px;
+  padding: 0 500px;
+}
+.item img {
+  margin: 15px auto -60px;
+  width: 600px;
+  height: 600px;
+  border-radius: 60px;
+
+  z-index: 2;
+}
+
+.card p {
+  font-style: italic;
+  line-height: 1.6;
+}
+.card span {
+  display: block;
+  margin-top: 20px;
+  color: teal;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.testimonials .btn {
+  position: absolute;
+  top: 50%;
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(95, 106, 117, 0.3);
+  z-index: 1;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.testimonials .btn:hover{
+  background-color: rgba(95, 106, 117, 0.5);
+  cursor: pointer;
+}
+.testimonials .btn.next {
+  right: 15px;
+}
+.testimonials .btn.prev {
+  left: 15px;
+}
+@media screen and (max-width: 480px) {
+  .item {
+      padding: 0 30px;
+  }
+  .card {
+      padding: 80px 30px 30px;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+/*Восьмой блок*/
+/*Девятый блок*/
+/*Девятый блок*/
+/*Десятый блок*/
+/*Десятый блок*/
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
